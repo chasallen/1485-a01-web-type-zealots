@@ -1,8 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 body {background-color:#E4DFDC; margin:150px;}
-header {background-color: #393738; overflow:auto; width:100%; padding:5px;}
+header {background-color: #393738; width:100%; padding:5px;}
 
+article {clear:both;}
 ul {list-style-type:none; padding:0;}
 nav li {float:left; display:inline;}
 aside {float:left; display:inline; width:100%;}
@@ -16,7 +17,6 @@ h4 {font:16px 'Arimo', sans-serif; font-weight:400;}
 p {font-family: 'Droid Serif', serif;}
 p {font:16px 'Droid Serif', serif;}
 
-h1 {background-color: #393738; overflow:auto; width:100%; padding:5px;}
 h2 {background-color: #393738; overflow:auto; width:100%; padding:5px;}
 h3 {background-color: #393738; overflow:auto; width:100%; padding:5px;}
 
@@ -24,3 +24,4 @@ h1 {color:#AEA4A2;}
 h2 {color:#AEA4A2;}
 h3 {color:#AEA4A2;}
 
+.center {text-align:center;}
